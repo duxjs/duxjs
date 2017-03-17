@@ -20,7 +20,7 @@ duxjs is a componentized  redux framework based on react , redux , react-redux. 
   * nestable
   * life cycle
 
-*  **Sync&async action**
+* **Sync&async action**
 
   * sync-action
     * plain (serializable)
@@ -41,5 +41,5 @@ duxjs is a componentized  redux framework based on react , redux , react-redux. 
 
 
 
-![duxjs-logo](https:////p0.meituan.net/dpgroup/14ae1d9491966089bdaedf4350aceab7126690.png)
+![duxjs-logo](https://p0.meituan.net/dpgroup/14ae1d9491966089bdaedf4350aceab7126690.png)
 
