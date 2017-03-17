@@ -4,7 +4,7 @@
 
 duxjs是一款基于redux的组件化业务框架，该框架基于react，redux，react-redux. (感谢 [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux))
 
-[Enligsh](https://github.com/duxjs/duxjs/blob/master/README.md)
+[Enligsh](./README.md)
 
 * **开发友好**
 

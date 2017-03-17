@@ -4,7 +4,7 @@
 
 duxjs is a componentized  redux framework based on react , redux , react-redux. (Inspired by [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux))
 
-[中文](https://github.com/duxjs/duxjs/blob/master/README_CN.md)
+[中文](./README_CN.md)
 
 * **Developer friendly**
 
