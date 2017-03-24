@@ -2,20 +2,21 @@
 
 ###### _美团点评内测中，即将发布_
 
-duxjs是一款基于redux的组件化业务框架，该框架基于react，redux，react-redux. (感谢 [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux))
+duxjs是一款基于redux+react的高扩展可跟踪易上手的web前端业务框架。感谢 [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux)和[choo](https://github.com/yoshuawuyts/choo))
 
 [Enligsh](./README.md)
 
 * **开发友好**
 
-  * 简化的api，不需要在多个文件里来回切换
+  * 声明式API
+  * 不用再写redux式的样板代码，不需要在多个文件里来回切换
   * 通过generator function来承载异步任务
-  * 好用的选择器，告别冗长的代码
+  * 好用的选择器，告别冗长的链式引用
   * hmr热替换
 
 * **业务组件化**
 
-  * 业务组件 = 业务逻辑+view = action + effect + reducer + view
+  * 业务组件 = 业务逻辑+UI = action + effect + reducer + view(jsx)
   * 组件间隔离
   * 子组件申明与动态加载
   * 组件间通信

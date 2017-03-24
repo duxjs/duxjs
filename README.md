@@ -2,20 +2,21 @@
 
 ###### _I'm coming soon_
 
-duxjs is a componentized  redux framework based on react , redux , react-redux. (Inspired by [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux))
+duxjs is a componentized front-end framework with extendability, traceability and learnability based on react and redux. (Inspired by [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux) and [choo](https://github.com/yoshuawuyts/choo))
 
 [中文](./README_CN.md)
 
 * **Developer friendly**
 
-  * simpler api
+  * declarative api
+  * no redux boilerplat code
   * generator function
   * mighty selector
   * hmr
 
 * **Biz componentization**
 
-  * biz component = biz logic + view = action + effect + reducer + view
+  * biz component = biz logic + UI = action + effect + reducer + view(jsx)
   * isolation
   * declare child component and mount them dynamically
   * communication between parent and child
@@ -37,7 +38,7 @@ duxjs is a componentized  redux framework based on react , redux , react-redux. 
     * plugin subscribe all global effects/actions/stateChanges/exceptions
     * you can use biz component in plugins (Yes, plugin has own view)
 
-* **Server-side rendering**
+* **Server-side rendering (isomorphic)**
 
   ​
 
